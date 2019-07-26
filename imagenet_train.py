@@ -17,10 +17,10 @@ from torch.utils.data import DataLoader, Dataset
 from PIL import Image
 from utils import time_file_str
 
-from models.ed_resnet import *
-from models.ed_resnext import *
-from models.ed_se_resnet import *
-from models.ed_se_resnext import *
+from ed_resnet import *
+from ed_resnext import *
+from ed_se_resnet import *
+from ed_se_resnext import *
 
 model_dict = {
     'ED50':resnet50_ed(),
