@@ -21,20 +21,12 @@ from models.ed_resnet import *
 from models.ed_resnext import *
 from models.ed_se_resnet import *
 from models.ed_se_resnext import *
-from models.rgse_resnet import *
-from models.rgse_resnext import *
-from models.spse_resnet import *
-from models.spse_resnext import *
 
 model_dict = {
     'ED50':resnet50_ed(),
     'EDX50':resnext50_ed(),
     'EDSE50':se_resnet50_ed(),
     'EDSEX50':se_resnext50_ed(),
-    'RGSE50':resnet50_rgse(),
-    'RGSEX50':resnext50_rgse(),
-    'SPSE50':resnet50_spse(),
-    'SPSEX50':resnext50_spse(),
 }
 
 parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')
