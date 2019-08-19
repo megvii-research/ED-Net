@@ -1,6 +1,6 @@
 ## PyTorch implementation of 
     A Lightweight Encoder-Decoder Path for Deep Residual Networks.
-
+![method](https://github.com/Megvii-Nanjing/ED-Net/blob/master/1.png)
 
 ### Requirements
 
