@@ -1,8 +1,8 @@
-# PyTorch implementation of 
+## PyTorch implementation of 
     A Lightweight Encoder-Decoder Path for Deep Residual Networks.
 
 
-# Requirements
+### Requirements
 
     numpy
     
@@ -11,7 +11,7 @@
     torchvision-0.3.0
     
 
-# step
+### step
     
     1.download your dataset by yourself, such as ImageNet-1k
     
