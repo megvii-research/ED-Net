@@ -24,8 +24,14 @@ This repository is the official PyTorch implementation of paper `A Lightweight E
     
     3.python3 imagenet_train.py --test_data_path your_path --train_data_path  your_path -a ED50 --epochs 100 --schedule 30 -b 256 --lr 0.1
 
-## visualization
-![visualization](https://github.com/Megvii-Nanjing/ED-Net/blob/master/2.png)
+## Options
+- `lr`: learning rate
+- `lrp`: factor for learning rate of pretrained layers. The learning rate of the pretrained layers is `lr * lrp`
+- `batch-size`: number of images per batch
+- `image-size`: size of the image
+- `epochs`: number of training epochs
+- `evaluate`: evaluate model on validation set
+- `resume`: path to checkpoint
 
 ## Contacts
 If you have any questions about our work, please do not hesitate to contact us by emails.
