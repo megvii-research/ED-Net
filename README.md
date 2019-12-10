@@ -1,5 +1,5 @@
 ## A Lightweight Encoder-Decoder Path for Deep Residual Networks.
-Xin Jin, Yanping Xie, Xiu-shen Wei*, Borui Zhao, Yongshun Zhang, Xiaoyang Tan
+Xin Jin, Yanping Xie, Xiu-Shen Wei*, Borui Zhao, Yongshun Zhang, Xiaoyang Tan
 
 This repository is the official PyTorch implementation of paper "A Lightweight Encoder-Decoder Path for Deep Residual Networks". The paper is under revision, and will be released after acceptance.
 
